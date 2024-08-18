@@ -49,7 +49,7 @@ table {
 /* ------------------程式起始----------------------*/
 *,*::before,*::after {
   box-sizing: border-box;
-  outline: solid 1px; 
+  /*outline: solid 1px; */
 }
 /*先設定所有圖片都會自由高度,顯示100%大小,使用者移動視窗時會永遠對準中間*/
 img{
