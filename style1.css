@@ -46,7 +46,102 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* ------------------程式起始----------------------*/
+*,*::before,*::after {
+  box-sizing: border-box;
+  /*outline: solid 1px; */
+}
+/*先設定所有圖片都會自由高度,顯示100%大小,使用者移動視窗時會永遠對準中間*/
+img{
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
+body{
+	font-size: 24px;
+	line-height: 1.5;
+	font-family: "Castoro", serif;
+}
+.container {
+	width:1296px;
+	margin:0 auto;
+}
 
-h1{
-    color: blue;
+/*banner-title*/.type{
+	font-size: 128px;
+	letter-spacing: 0.12em;
+}
+/*.banner-img*/.myimage-class{
+	/*display: block;
+	margin: 0 auto;*/
+	text-align: center;
+}
+
+/*  自己寫的時候,字數都會跟老師助教講解的行數不一樣 Why?  */
+.desc{
+	/*為什麼我還要多放一次container的內容? 為何讀取不了*/
+	width:1296px;
+	margin:0 auto;
+	/*Why? */
+	background: #EFEFEF;
+	padding: 48px 0; /*兩個:上下 左右*/
+	font-size: 32px;
+}
+
+/*圖片50% 抽取出來 width-50=w-50*/
+.w-50{
+	width:50%;
+}
+/*margin left auto*/
+.ml-auto{
+  margin-left: auto;
+}
+.mr-auto{
+	margin-right: auto;
+}
+
+
+.about-item-title{
+    font-size: 40px;
+	color: #AE0000;
+	border-bottom: 3px solid  #AE0000 ;
+	margin-bottom:16px;
+}
+.about-list{
+	font-size: 20px;
+	font-style: italic;
+	color: #949494;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+.mb-2x{
+	margin-bottom: 8px;
+}
+.mb-3x{
+	margin-bottom: 12px;
+}
+.mb-4x{
+	margin-bottom: 16px;
+}
+.mr-10x{
+	margin-right: 40px;
+}
+.next{
+	display:block;
+}
+
+
+.footer{
+	background-color: black;
+	margin-top: 160px;
+}
+.social-list{
+	padding: 64px 0; /*兩個數值: 上下 左右*/
+	text-align: center;
+}
+/*不懂為什麼還要加進li Why/*/
+.social-list li{
+	display: inline-block;
 }
