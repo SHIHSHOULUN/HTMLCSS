@@ -82,7 +82,7 @@ img{
 /* component  */
 .btn{    /* btn的意思是?  Ans:箭頭的botton*/
 	padding: 12px 24px;
-	border-radius: 32px;  /* border-radius意思是? */
+	border-radius: 32px; 
 }
 .btn-light{
   background: white;
@@ -108,7 +108,7 @@ img{
 
 .intro{
 	/*CSS載入背景圖語法*/
-	background-image: url("background-img/img.png");
+	background-image: url("img/background-img.png");
 	background-repeat: no-repeat;
 	background-size: cover; 
 	color: #FFF;
