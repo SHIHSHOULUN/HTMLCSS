@@ -109,7 +109,7 @@ img{
 
 .intro{
 	/*CSS載入背景圖語法*/
-	background-image: url("img/background.png");
+	background-image: url("img/ground.png");
 	background-repeat: no-repeat;
 	background-size: cover; 
 	color: #FFF;
