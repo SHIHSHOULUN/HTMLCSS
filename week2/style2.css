@@ -82,7 +82,7 @@ img{
 /* component  */
 .btn{    /* btn的意思是?  Ans:箭頭的botton*/
 	padding: 12px 24px;
-	border-radius: 32px;  /* border-radius意思是? */
+	border-radius: 32px;  
 }
 .btn-light{
   background: white;
